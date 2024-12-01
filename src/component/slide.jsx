@@ -36,7 +36,7 @@ const Slide = () => {
         
     </div>
   <div  className={show? 'hide':"cover"} onClick={()=>setShow((prev)=>!prev)}> <h3>Yesmene <br /> Integrated Humanitarian <br /> Foundation</h3>
-    <div><Link to={'/slide'}>Educational Programmes</Link> </div>
+    <div>Educational Programmes </div>
     <div>Humanitarian Programmes</div>
     <div>Sustainable Programmes</div>
     </div>

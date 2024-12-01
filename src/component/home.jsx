@@ -7,7 +7,7 @@ const Home = () => {
     return (
     <>
     <div >
-        <div style={{height:'500px',width:"100%",margin:"auto"}} >
+        <div style={{height:'400px',width:"100%",margin:"auto"}} >
           
         <Slide />
         </div>
