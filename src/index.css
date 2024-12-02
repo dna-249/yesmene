@@ -80,7 +80,7 @@
   color: rgba(6, 6, 87, 0.536);
 }
 
-@media all and (width <= 350px) {
+@media all and (max-width: 350px) {
   .grid{
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
