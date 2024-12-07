@@ -72,6 +72,15 @@
   padding: 5px;
   border-radius: 10px;
 }
+
+.grid2 div{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.085);
+  padding: 5px;
+  border-radius: 10px;
+}
 .center{
   width: 100%;
   justify-items: center;
@@ -80,8 +89,7 @@
   color: rgba(6, 6, 87, 0.536);
 }
 
-@media all and (max-width: 350px) {
-  .grid{
+  .grid2{
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     align-items: center;
@@ -94,4 +102,3 @@
     font-size: 30px;
     text-shadow: 1px 1px gold ;
   }
-}
