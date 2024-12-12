@@ -5,7 +5,7 @@ const About = () => {
     
   return (
     <>
-    <div className='center' > <h3 > ABOUT  YIMF</h3></div>
+    <div className='center'> <h3 > ABOUT  YIMF</h3></div>
     <div className="grid"> 
         <div>< img className='img2' src="y.jpg" alt="" />
         <br /><span> VISION & MISSION</span>

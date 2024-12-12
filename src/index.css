@@ -38,10 +38,10 @@
   padding: 10px;
   border: none;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 10px;
   color: rgba(255, 255, 255, 0.756);
   margin-top: 5px;
-  width: 170px;
+  width: 120px;
 
 }
 .hide{
@@ -50,7 +50,7 @@
 .img2{
   flex-grow: 0;
   flex-shrink: 0;
-  height: 200px;
+  height: 250px;
   width: 300px;
 }
 
@@ -81,6 +81,7 @@
   background-color: rgba(238, 232, 170, 0.52);
   align-content: center;
   color: rgba(6, 6, 87, 0.536);
+  margin: auto;
 }
 
   
