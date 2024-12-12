@@ -7,6 +7,7 @@ const Slide = () => {
    const [showPic, setShowPic] = useState(0)
    const [show, setShow] = useState(false)
    const pic =["yasmen8.jpg","yasmen7.jpg","yasmen1.jpg","yasmen9.jpg"]
+               
   const handleShow = () => {
     
   }
