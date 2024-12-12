@@ -51,7 +51,7 @@
   flex-grow: 0;
   flex-shrink: 0;
   height: 200px;
-  width: 200pxs;
+  width: 300px;
 }
 
 .grid{
@@ -60,6 +60,7 @@
   grid-template-columns: auto;
   grid-template-rows:auto auto auto;
   column-gap: 200px;
+  row-gap: 10px;
   justify-content: center;
   align-items: center;
   padding: 10px;
