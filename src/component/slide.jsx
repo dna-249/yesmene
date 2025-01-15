@@ -5,12 +5,8 @@ import { Link, NavLink } from 'react-router-dom'
 import { FaBars, FaCircle, FaDotCircle, FaGgCircle} from "react-icons/fa"
 const Slide = () => {
    const [showPic, setShowPic] = useState(0)
-   const [show, setShow] = useState(false)
+   
    const pic =["yasmen8.jpg","yasmen7.jpg","yasmen1.jpg","yasmen9.jpg"]
-               
-  const handleShow = () => {
-    
-  }
   
    
    const handleImg = (index) => {
@@ -36,7 +32,7 @@ const Slide = () => {
         ,)}
         
     </div>
-  <div  className={show? 'hide':"cover"} onClick={()=>setShow((prev)=>!prev)}> <h3>Yesmene <br /> Integrated Humanitarian <br /> Foundation</h3>
+  <div  className="cover" > <h3>Yesmene <br /> Integrated Humanitarian <br /> Foundation</h3>
     <div>Educational Programmes </div>
     <div>Humanitarian Programmes</div>
     <div>Sustainable Programmes</div>
